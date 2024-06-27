@@ -8,7 +8,7 @@ const Homepage = () => {
     <main
       id="home"
       data-testid="homepage"
-      className={`min-h-screen bg-[url('/bg-web3campus.webp')] bg-cover bg-no-repeat`}
+      className={`min-h-screen bg-[url('/assets/background.png')] bg-cover bg-no-repeat`}
     >
       {/* header */}
       <Header />

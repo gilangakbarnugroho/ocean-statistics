@@ -3,8 +3,8 @@ import { FaYoutube } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import Image from "next/image";
-import MediaVideo from "src/components/MediaVideo"
-import Blank from "public/blank.png"
+import Media from "src/components/Media"
+import Thumb from "public/assets/Hero.png"
 
 const Hero = () => {
   return (
@@ -21,26 +21,26 @@ const Hero = () => {
           <FaTwitter color="#f1f5f9" size={22} />
         </a>
       </div>
-      {/* hero */}
-      <div className="flex flex-col items-center px-2 xs:px-0">
-        <h1 className="text-6xl xs:text-5xl max-w-6xl drop-shadow-md text-slate-100 font-extrabold text-center lg:text-[3.5rem] lg:leading-tight">
-          WEB3 ON CAMPUS
-        </h1>
-        <h2 className="text-xl xs:text-l max-w-l drop-shadow-md text-slate-100 font-bold text-center md:max-w-lg lg:text-[1.5rem] lg:leading-tight">
-          by IDNFT
-        </h2>
-        <div className="mt-16 mb-4 md:mt-12 sm:mt-16 sm:w-auto sm:mb-0">
-        <MediaVideo 
-          thumb={Blank}
-          thumbWidth={150}
-          thumbHeight={100}
-          thumbAlt='no thumb'
-          video='/videos/web3oncampus.mp4'
-          videoWidth={1920}
-          videoHeight={1080}
-          />
+
+      {/* Items */}
+      <div className="max-w-6xl mx-auto grid gap-12 px-4 sm:px-8 items-center justify-center">
+
+        <div className="max-x-3xl mx-auto md:grid md:grid-cols-12 md:gap-6 items-center justify-center">
+          {/* Image */}
+          <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1" data-aos="fade-up">
+            <Media thumb={Thumb} thumbWidth={540} thumbHeight={405} thumbAlt="Embrace" media='Embrace.svg' mediaHeight={540} mediaWidth={405} />
+          </div>
+        {/* Content */}
+          <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
+            <div className="md:pr-4 lg:pr-12 xl:pr-16">
+              <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out"> <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-700 to-blue-500">Bingung saat ngerjain skripsi?</span></h1>
+              <p className="text-lg text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">Konsultasiin aja masalah data kamu di Ocean Statistic</p>
+              <a className="btn rounded-full font-bold text-white bg-blue-700 hover:bg-blue-300 hover:text-blue-700 w-full p-4 sm:w-auto sm:mb-0" href="#">Konsultasikan Sekarang</a>
+            </div>
+          </div>
         </div>
       </div>
+
       {/* scroll */}
       <div className="hidden xs:flex flex-col items-center px-5 group lg:px-8">
         <div className="w-[22px] h-[22px] rounded-full bg-slate-100 mb-3 group-hover:animate-bounce"></div>

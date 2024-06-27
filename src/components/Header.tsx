@@ -35,8 +35,8 @@ const Header = () => {
 
   return (
     <header
-      className={`bg-transparent fixed top-0 left-0 w-full flex items-center z-50 ${
-        visible ? "fixed backdrop-blur-sm" : ""
+      className={`bg-gray-100 bg-opacity-25 fixed top-0 left-0 w-full flex items-center z-50 ${
+        visible ? "fixed backdrop-blur-sm" : "backdrop-blur-sm"
       } ${dark ? "fixed nav-color backdrop-blur shadow-md" : ""}`}
     >
       <div id="navbar" className="w-screen 2xl:container relative">
@@ -49,21 +49,19 @@ const Header = () => {
           <div className="flex items-center gap-x-1 order-1 w-[25%] box-border pl-6 lmd:pl-14 lg:pl-24 2xl:pl-16">
           <Link
               href="/"
-              className={`uppercase font-bold hidden xs:inline xs:text-sm sm:text-base tracking-widest ${
-                dark ? "text-gray-700" : "text-gray-100"
+              className={`uppercase font-regular hidden xs:inline xs:text-sm sm:text-base tracking-widest ${
+                dark ? "text-blue-700" : "text-blue-700"
               }`}
             >
               <Logo />
             </Link>
             <Link
               href="/"
-              className={`hidden lg:inline  text-sm sm:text-lg lg:text-[0.75rem] font-bold tracking-wide ${
-                dark ? "text-gray-700" : "text-gray-100"
+              className={`hidden lg:inline  text-sm sm:text-lg lg:text-[0.75rem] font-regular tracking-wide ${
+                dark ? "text-blue-700" : "text-blue-700"
               }`}
             >
-              <LogoWeb3CampusWhite
               
-              />
             </Link>
           </div>
           {/* navigation */}
@@ -71,25 +69,12 @@ const Header = () => {
           {/* contact us */}
           <div className="invisible lg:visible order-2 lg:order-3 lg:w-[25%] box-border flex justify-center items-center lg:pr-24 2xl:pr-16 gap-x-2 lg:justify-end">
             <Link
-              href="https://www.idnft.id/community"
-              className={`uppercase font-bold hidden xs:inline xs:text-sm sm:text-base tracking-widest ${
+              href="https://wa.link/an2t6u"
+              className={`btn rounded-full font-bold text-white bg-blue-700 p-4 hover:bg-blue-300 hover:text-blue-700 w-full mb-4 sm:w-auto font-bold hidden xs:inline xs:text-sm tracking-widest ${
                 dark ? "text-gray-700 border-gray-700" : "text-gray-100 "
               }`}
             >
-              contact us
-            </Link>
-            <div
-              className={` h-4 font-bold sm:h-[1.5rem] w-[1px] border-l-[1px] ${
-                dark ? "border-gray-700" : "border-gray-100"
-              }`}
-            ></div>
-            <Link
-              href="https://www.idnft.id"
-              className={`uppercase font-bold hidden xs:inline xs:text-sm sm:text-base tracking-widest ${
-                dark ? "text-gray-700" : "text-gray-100"
-              }`}
-            >
-              <LogoIDNFT />
+              Konsultasi Sekarang
             </Link>
           </div>
         </div>

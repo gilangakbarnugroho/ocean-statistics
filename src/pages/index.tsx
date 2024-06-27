@@ -17,8 +17,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Web3 on Campus</title>
-        <meta name="description" content="A roadshow program aimed at socializing and educating about Web3 dan NFT industry to students in biggest universities in Indonesia." />
+        <title>Ocean Statistics</title>
+        <meta name="description" content="Jasa Olah Data Statistika" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -26,13 +26,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width,initial-scale=1" />
         {/* Home */}
         <Homepage />
-        <Second />
-        <Timeline />
-        <CTA />
-        <Count />
-        <Pic />
-        <Partner />
-        <Community />
+        
         {/* <Reviewpage /> */}
         <Footer />
       </div>
