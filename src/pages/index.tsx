@@ -6,7 +6,7 @@ import Second from "./sections/landing/Second";
 import Timeline from "./sections/landing/Timeline";
 import CTA from "./sections/landing/CTA";
 import Count from "./sections/landing/Count"
-import Pic from "./sections/landing/Pic";
+import Program from "./sections/landing/Program";
 import Partner from "./sections/landing/Partner";
 import Community from "./sections/landing/Testi";
 import Footer from "@/components/Footer";
@@ -26,6 +26,8 @@ export default function Home() {
         <meta name="viewport" content="width=device-width,initial-scale=1" />
         {/* Home */}
         <Homepage />
+        <Second />
+        <Program />
         
         {/* <Reviewpage /> */}
         <Footer />

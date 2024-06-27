@@ -33,36 +33,12 @@ export const Navdata = [
   },
 ];
 
-export const FilterData = [
-  {
-    data1: "All",
-    data2: "Trending",
-  },
-  {
-    data1: "Popular",
-    data2: "Features",
-  },
-  {
-    data1: "Recommend",
-    data: "Theme",
-  },
-
-  {
-    data1: "Original",
-    data: "Tour",
-  },
-  {
-    data1: "Packages",
-    data2: "",
-  },
-];
-
 export const picardData = [
   {
     id: 1,
     src: "/gallery/doc-ugm.webp",
-    title: "Web3 on Campus 'Gadjah Mada University'",
-    desc: " ",
+    title: "Paket Olah Data SPSS",
+    desc: "",
   },
   {
     id: 2,

@@ -29,8 +29,8 @@ const NavHor = ({ title, reference }: linkProps) => {
     <li className="group">
       <a
         href={`#${reference}`}
-        className={`px-3 mx-2 py-1 xl:mx-3 hover:text-opacity-80 ${
-          dark ? "text-gray-700" : "text-gray-400"
+        className={`px-3 mx-2 py-1 xl:mx-3 hover:text-opacity-70 ${
+          dark ? "text-blue-900" : "text-blue-900"
         }`}
       >
         {title}

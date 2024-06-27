@@ -70,7 +70,7 @@ const Header = () => {
           <div className="invisible lg:visible order-2 lg:order-3 lg:w-[25%] box-border flex justify-center items-center lg:pr-24 2xl:pr-16 gap-x-2 lg:justify-end">
             <Link
               href="https://wa.link/an2t6u"
-              className={`btn rounded-full font-bold text-white bg-blue-700 p-4 hover:bg-blue-300 hover:text-blue-700 w-full mb-4 sm:w-auto font-bold hidden xs:inline xs:text-sm tracking-widest ${
+              className={`btn rounded-full text-white bg-blue-700 p-4 hover:bg-blue-300 hover:text-blue-700 w-full mb-4 sm:w-auto hidden xs:inline xs:text-sm ${
                 dark ? "text-gray-700 border-gray-700" : "text-gray-100 "
               }`}
             >

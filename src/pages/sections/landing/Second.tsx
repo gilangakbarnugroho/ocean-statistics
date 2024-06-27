@@ -10,60 +10,63 @@ const Second = () => {
     <section
       id="about"
       data-testid="about"
-      className="flex w-full max-w-6xl mx-auto 2xl:container"
+      className="w-full bg-blue-700 py-10 items-center justify-center"
     >
-      <div className="min-h-[5rem]"></div>
-      <div className="flex flex-col cont-height justify-center gap-y-10 sm:gap-y-16 lmd:px-10 2xl:px-4 box-border">
-        <div className="flex flex-wrap justify-center gap-y-6 gap-x-6 ">
-          <div className="flex flex-col gap-y-10 lmd:w-[45%] px-6 box-border">
-            <div className="flex flex-col gap-y-6">
-              <h2 className="text-3xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-red-700 to-rose-700 md:text-4xl lg:text-5xl lmd:max-w-lg">
-                About Web3 on Campus
-              </h2>
-              <p className="lg:text-lg">
-              WEB3 On Campus is a collaborative program between IDNFT and Universities aimed at supporting The Three Pillars of Higher Education 
-              "Tri Dharma Perguruan Tinggi" by providing socialization and education opportunities for students on Blockchain, NFT, Crypto, Web3 
-              and Metaverse in Indonesia.
-              </p>
-              <p className="lg:text-lg">
-              This program provides universities with fast and reliable access to education and information updates from NFT and Web3 Industry 
-              players and aims to give students an overview of new opportunities and potential career paths in the field.
-              </p>
-            </div>
-            {/* <div className="flex gap-x-4">
-              <Link
-                href="/gallery/WorldGallery"
-                className="px-4 py-[0.6rem] lmd:py-3 lmd:px-6 bg-gray-700 text-gray-100 hover:bg-gray-800 transition-all duration-300"
-              >
-                Discover more places
-              </Link>
-              <Link
-                href=""
-                className="px-4 py-[0.6rem] lmd:py-3 lmd:px-6 border-[1px] border-gray-400 hover:border-gray-800 border-opacity-40 hover:border-opacity-100 transition-all duration-200"
-              >
-                View our packages
-              </Link>
-            </div> */}
-            {/* <div className="bg-gray-200 p-4">
-              <p>
-                Interested in Travel to be your travel companion on your special
-                moment? Get in touch with our team at{" "}
-                <a href="" className="text-emerald-800 underline">
-                  tripteam@travel.com
-                </a>
-              </p>
-            </div> */}
-          </div>
-          {/* image */}
-          <div className="w-full lmd:w-[45%] px-6 box-border">
-            <div className="bg-[url('/pg2-4.webp')] h-[20rem] w-full bg-cover bg-center shadow-2xl lmd:h-3/4 lg:h-[90%] relative">
-              {/* <div className="absolute -bottom-4 -right-4 shadow-2xl border-8 border-gray-200">
-                <Image src="/pg2-2.webp" alt="" width={200} height={50} />
-              </div> */}
-            </div>
-          </div>
-        </div>
+
+      <div className="min-h-[3rem]"></div>
+
+      {/* Section header */}
+      <div className="max-w-3xl mx-auto text-center pb-4 md:pb-8">
+        <h1 className="h2 mb-4 text-gray-100 text-2xl font-bold" data-aos="zoom-y-out" data-aos-delay="150">Mengapa harus memilih Ocean Statistics?</h1>
       </div>
+
+      <div className="flex-col mx-auto justify-center max-w-6xl">
+
+      <div className="grid gap-8 sm:grid-cols-3 lg:grid-cols-3 lg:gap-6 mx-4">
+        
+        {/* 1st Items */}
+        <div className="flex flex-col p-6 bg-white items-center rounded-xl bg-[url('/assets/background.png')] bg-cover bg-no-repeat shadow-xl">
+          <Image
+          src="/assets/tentang-1.png"
+          alt="scroll"
+          width={150}
+          height={150}
+          className="duration-500 transition-all mb-4"
+          />
+          <h2 className="font-bold text-lg text-blue-700 mb-4">Privasi Terjaga</h2>
+          <p className="text-center">Kamu ngga perlu khawatir data atau identitasmu bocor nih! Karena kami menjamin privasi tiap konsumen.</p>
+        </div>
+
+        {/* 2nd Items */}
+        <div className="flex flex-col p-6 bg-white items-center rounded-xl bg-[url('/assets/background.png')] bg-cover bg-no-repeat shadow-xl">
+          <Image
+          src="/assets/tentang-2.png"
+          alt="scroll"
+          width={150}
+          height={150}
+          className="duration-500 transition-all mb-4"
+          />
+          <h2 className="font-bold text-lg text-blue-700 mb-4">Interpretasi Hasil</h2>
+          <p className="text-center">Buat kamu yang masih bingung dengan datanya, kami siap membantu menjelaskan secara langsung ya! Kamu juga bisa minta kami buat konsultasi secara face to face di area sekitar Jogja.</p>
+        </div>
+
+        {/* 3rd Items */}
+        <div className="flex flex-col p-6 bg-white items-center rounded-xl bg-[url('/assets/background.png')] bg-cover bg-no-repeat shadow-xl">
+          <Image
+          src="/assets/tentang-3.png"
+          alt="scroll"
+          width={150}
+          height={150}
+          className="duration-500 transition-all mb-4"
+          />
+          <h2 className="font-bold text-lg text-blue-700 mb-4">Kami Bantu sampai ACC</h2>
+          <p className="text-center">Ngga perlu ragu, ngga perlu bimbang. Kami siap membantumu mendapat acc dari dosen pembimbing tercinta!</p>
+        </div>
+
+      </div>
+
+      </div>
+
     </section>
   );
 };
