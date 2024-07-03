@@ -39,7 +39,7 @@ const Pic = () => {
         </div>
 
         <div
-          className="px-8 grid grid-flow-col auto-cols-[100%] md:auto-cols-[50%] lg:auto-cols-[30%] overflow-x-auto overscroll-y-contain snap-x snap-mandatory scroll-pl-2 scrollbar-hide"
+          className="px-8 grid grid-flow-col gap-4 auto-cols-[100%] md:auto-cols-[50%] lg:auto-cols-[30%] overflow-x-auto overscroll-y-contain snap-x snap-mandatory scroll-pl-2 scrollbar-hide"
           ref={scrollContainer}
         >
           {picardData.map((card) => (
@@ -50,8 +50,6 @@ const Pic = () => {
               desc={card.desc}
             />
           ))}
-          <a className="btn rounded-full text-white bg-blue-700 hover:bg-blue-300 hover:text-blue-700 w-full p-4 sm:w-auto sm:mb-0" href="#">Konsultasikan Sekarang</a>
-
         </div>
         <button
           className="p-3 backdrop-blur btn-color rounded-full absolute top-1/2 -translate-y-1/2 left-6"
@@ -66,6 +64,9 @@ const Pic = () => {
           <BsChevronRight size={20} />
         </button>
       </div>
+      <div className="flex">
+      </div>
+
     </section>
   );
 };

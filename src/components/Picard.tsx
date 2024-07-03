@@ -7,26 +7,31 @@ import { BsBookmarkFill } from "react-icons/bs";
 interface cardProps {
   src: string;
   title: string;
-  desc: string;
+  desc: string[];
 }
 
 const Picard = ({ src, title, desc }: cardProps) => {
   return (
-    <div className="flex flex-col gap-y-3 snap-center px-2">
-      <div className="group rounded-md overflow-hidden relative shadow-lg">
-        <Image
+    <div className="flex flex-col h-full space-y-4 space-x-4 p-6 bg-blue-700 shadow-md rounded-lg" data-aos="fade-up">
+      <div>
+       <div className="flex place-items-end content-center justify-center bg-white p-4 rounded">
+        <Image             
           src={src}
-          alt={`${title} picture`}
-          width={808}
-          height={632}
-          className="group-hover:scale-110 group-hover:brightness-75 brig transition-all duration-300"
+          width={500}
+          height={500}
+          alt="Logo Layanan" 
+          className="max-h-36"
         />
-        <div className="absolute top-0 opacity-0 group-hover:opacity-100 w-full flex justify-between transition-opacity duration-300 p-4">
-        </div>
+       </div>
       </div>
-      <div className="flex flex-col text-gray-800">
-        <h3 className="font-semibold">{title}</h3>
-        <p className="text-xs">{desc}</p>
+      <div>
+        <blockquote className="text-lg text-center font-semibold text-white">{title}</blockquote>
+        <blockquote className="text-md text-white mt-2 space-y-1 list-disc list-inside">{desc.map((line, index) => (
+          <li key={index}>{line}</li>
+          ))}</blockquote>
+        <div className="text-gray-600 font-medium my-6 pt-5 border-t border-gray-300 text-center">
+          <Link className="btn rounded-full font-bold p-4 text-blue-700 bg-white hover:bg-blue-300 hover:text-blue-700 w-full sm:w-auto place-items-center justify-center content-center" href="https://wa.me/6285802705250" rel="noopener" target="_blank">Pesan Sekarang</Link>
+        </div>
       </div>
     </div>
   );

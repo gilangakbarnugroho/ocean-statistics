@@ -3,11 +3,9 @@ import Head from "next/head";
 import styles from "@/styles/Home.module.css";
 import Homepage from "./sections/landing/Homepage";
 import Second from "./sections/landing/Second";
-import Timeline from "./sections/landing/Timeline";
-import CTA from "./sections/landing/CTA";
 import Count from "./sections/landing/Count"
 import Program from "./sections/landing/Program";
-import Partner from "./sections/landing/Partner";
+import Partner from "./sections/landing/Pricelist";
 import Community from "./sections/landing/Testi";
 import Footer from "@/components/Footer";
 

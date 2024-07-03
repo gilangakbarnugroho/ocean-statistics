@@ -36,77 +36,32 @@ export const Navdata = [
 export const picardData = [
   {
     id: 1,
-    src: "/gallery/doc-ugm.webp",
+    src: "/assets/logo-spss.png",
     title: "Paket Olah Data SPSS",
-    desc: "",
+    desc: ["Data Excel Manipulasi", "Data Run Aplikasi (.sav)", "Output Pengolahan Aplikasi (.spv)", "Lampiran Uji Software (word)", "Interpretasi Hasil (word)", "Free Konsultasi sampai ACC", "Garansi revisi satu kali dengan syarat tidak olah data ulang." ]
   },
   {
     id: 2,
-    src: "/gallery/doc-ub.webp",
-    title: "Web3 on Campus 'Brawijaya University'",
-    desc: " ",
+    src: "/assets/logo-smartpls.png",
+    title: "Paket Smart PLS",
+    desc: ["Data Excel Manipulasi", "Data Run Aplikasi (.csv/.txt)", "Output Pengolahan Aplikasi (Include Model)", "Lampiran Uji Software (word)", "Interpretasi Hasil (word)", "Free Konsultasi sampai ACC", "Garansi revisi satu kali dengan syarat tidak olah data ulang." ]
   },
   {
     id: 3,
-    src: "/gallery/doc-binus.webp",
-    title: "Web3 on Campus 'Binus University'",
-    desc: " ",
+    src: "/assets/logo-warppls.png",
+    title: "Paket Warp PLS",
+    desc: ["Data Excel Manipulasi", "Data Run Aplikasi (.proj)", "Output Pengolahan Aplikasi (Include Model)", "Lampiran Uji Software (word)", "Interpretasi Hasil (word)", "Free Konsultasi sampai ACC", "Garansi revisi satu kali dengan syarat tidak olah data ulang." ]
   },
   {
     id: 4,
-    src: "/gallery/doc-telkom.webp",
-    title: "Web3 on Campus 'Telkom University'",
-    desc: " ",
+    src: "/assets/logo-amos.png",
+    title: "Paket AMOS",
+    desc: ["Data Excel Manipulasi", "Data Run Aplikasi (.amw)", "Output Pengolahan Aplikasi (Include Model)", "Lampiran Uji Software (word)", "Interpretasi Hasil (word)", "Free Konsultasi sampai ACC", "Garansi revisi satu kali dengan syarat tidak olah data ulang." ]
   },
   {
     id: 5,
-    src: "/gallery/doc-its.webp",
-    title: "Web3 on Campus 'Sepuluh Nopember Technology Institute'",
-    desc: " ",
-  },
-  {
-    id: 6,
-    src: "/gallery/doc-upn.webp",
-    title: "Web3 on Campus 'UPNV Yogyakarta'",
-    desc: " ",
-  },
-  {
-    id: 7,
-    src: "/gallery/doc-isi.webp",
-    title: "Web3 on Campus 'Bali Art Institute'",
-    desc: " ",
-  },
-  {
-    id: 8,
-    src: "/gallery/doc-um.webp",
-    title: "Web3 on Campus 'Malang'",
-    desc: " ",
-  },
-  {
-    id: 9,
-    src: "/gallery/doc-uii.webp",
-    title: "Web3 on Campus 'Islamic University'",
-    desc: " ",
-  },
-  {
-    id: 10,
-    src: "/gallery/doc-andalas.webp",
-    title: "Web3 on Campus 'Andalas University'",
-    desc: " ",
-  },
-  {
-    id: 11,
-    src: "/gallery/doc-petra.webp",
-    title: "Web3 on Campus 'Petra Christian University'",
-    desc: " ",
+    src: "/assets/logo-eview.png",
+    title: "Paket Eviews",
+    desc: ["Data Excel Manipulasi", "Data Run Aplikasi (.wf1)", "Output Pengolahan Aplikasi (Include Model)", "Lampiran Uji Software (word)", "Interpretasi Hasil (word)", "Free Konsultasi sampai ACC", "Garansi revisi satu kali dengan syarat tidak olah data ulang." ]
   },
 ];
-export const timelineData = [
-  {
-    id: 1,
-    src: "/gallery/doc-ugm.webp",
-    title: "Gadjah Mada University",
-    date: "March 1, 2023",
-    city: "Yogyakarta",
-  },
-]
