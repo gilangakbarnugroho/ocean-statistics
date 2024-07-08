@@ -1,8 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { MdFolder } from "react-icons/md";
-import { BsBookmarkFill } from "react-icons/bs";
+
 
 interface cardProps {
   src: string;
@@ -12,28 +11,32 @@ interface cardProps {
 
 const Picard = ({ src, title, desc }: cardProps) => {
   return (
-    <div className="flex flex-col h-full space-y-4 space-x-4 p-6 bg-blue-700 shadow-md rounded-lg" data-aos="fade-up">
+    <div className="pb-8">
+      <div className="flex flex-col h-full gap-4 p-6 bg-blue-700 shadow-xl rounded-3xl" data-aos="fade-up">
       <div>
-       <div className="flex place-items-end content-center justify-center bg-white p-4 rounded">
+       <div className="flex place-items-end content-center justify-center bg-white p-4 rounded-2xl">
         <Image             
           src={src}
-          width={500}
-          height={500}
+          width={450}
+          height={300}
           alt="Logo Layanan" 
-          className="max-h-36"
+          className="max-h-[300px]"
         />
        </div>
       </div>
-      <div>
+      <div className="h-[24rem] w-full">
         <blockquote className="text-lg text-center font-semibold text-white">{title}</blockquote>
-        <blockquote className="text-md text-white mt-2 space-y-1 list-disc list-inside">{desc.map((line, index) => (
+        <blockquote className="text-sm text-white h-[15rem] my-2 space-y-1 list-disc list-inside">{desc.map((line, index) => (
           <li key={index}>{line}</li>
           ))}</blockquote>
-        <div className="text-gray-600 font-medium my-6 pt-5 border-t border-gray-300 text-center">
-          <Link className="btn rounded-full font-bold p-4 text-blue-700 bg-white hover:bg-blue-300 hover:text-blue-700 w-full sm:w-auto place-items-center justify-center content-center" href="https://wa.me/6285802705250" rel="noopener" target="_blank">Pesan Sekarang</Link>
+        <div className="text-gray-600 font-medium my-2 pt-5 border-t border-gray-300 text-center"></div>
+        <div className="flex items-center text-center w-full">
+        <Link className="btn flex rounded-full font-bold p-4 text-blue-700 bg-white hover:bg-blue-300 hover:text-blue-700 w-full justify-center" href="https://wa.me/6285802705250" rel="noopener" target="_blank">Pesan Sekarang</Link>
         </div>
       </div>
     </div>
+    </div>
+    
   );
 };
 

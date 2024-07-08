@@ -1,6 +1,4 @@
 import React, { useState, useEffect } from "react";
-import Link from "next/link";
-import LogoIDNFT from "./shared/LogoIDNFT";
 
 type linkProps = {
   title?: string;
@@ -29,7 +27,7 @@ const NavHor = ({ title, reference }: linkProps) => {
     <li className="group">
       <a
         href={`#${reference}`}
-        className={`px-3 mx-2 py-1 xl:mx-3 hover:text-opacity-70 ${
+        className={`px-3 mx-2 py-1 xl:mx-3 hover:text-opacity-70 hover:bg-blue-700 hover:rounded-full hover:text-white hover:p-3 ${
           dark ? "text-blue-900" : "text-blue-900"
         }`}
       >

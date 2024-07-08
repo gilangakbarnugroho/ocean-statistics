@@ -39,10 +39,10 @@ const Header = () => {
         visible ? "fixed backdrop-blur-sm" : "backdrop-blur-sm"
       } ${dark ? "fixed nav-color backdrop-blur shadow-md" : ""}`}
     >
-      <div id="navbar" className="w-screen 2xl:container relative">
+      <div id="navbar" className="w-screen 2xl:container items-center">
         <div
-          className={`flex items-center justify-between relative ${
-            dark ? "min-h-[4.5rem]" : " min-h-[5rem] md:min-h-[7rem]"
+          className={`flex items-center justify-between ${
+            dark ? "min-h-[4.5rem]" : " min-h-[5rem] md:min-h-[6rem]"
           }`}
         >
           {/* Logo */}
@@ -67,10 +67,10 @@ const Header = () => {
           {/* navigation */}
           <Nav />
           {/* contact us */}
-          <div className="invisible lg:visible order-2 lg:order-3 lg:w-[25%] box-border flex justify-center items-center lg:pr-24 2xl:pr-16 gap-x-2 lg:justify-end">
+          <div className="invisible lg:visible order-2 lg:order-3 box-border flex justify-center place-items-center lg:pr-24 2xl:pr-16 gap-x-2 lg:justify-center">
             <Link
               href="https://wa.link/an2t6u"
-              className={`btn rounded-full text-white bg-blue-700 p-4 hover:bg-blue-300 hover:text-blue-700 w-full mb-4 sm:w-auto hidden xs:inline xs:text-sm ${
+              className={`btn rounded-full text-white bg-blue-700 p-4 hover:bg-blue-300 hover:text-blue-700 w-full sm:w-auto hidden xs:inline xs:text-sm ${
                 dark ? "text-gray-700 border-gray-700" : "text-gray-100 "
               }`}
             >

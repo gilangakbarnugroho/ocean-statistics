@@ -9,7 +9,7 @@ const Pic = () => {
   const scrollLeft = () => {
     if (scrollContainer.current) {
       scrollContainer.current.scrollBy({
-        left: -250,
+        left: -750,
         behavior: "smooth",
       });
     }
@@ -18,7 +18,7 @@ const Pic = () => {
   const scrollRight = () => {
     if (scrollContainer.current) {
       scrollContainer.current.scrollBy({
-        left: 250,
+        left: 750,
         behavior: "smooth",
       });
     }
@@ -27,19 +27,19 @@ const Pic = () => {
     <section
       id="gallery"
       data-testid="gallery"
-      className="flex flex-col mb-8 max-w-6xl mx-auto w-full"
+      className="flex flex-col mb-8 max-w-6xl mx-auto h-full w-full"
     >
       <div className="min-h-[2.5rem]"></div>
       <div className="relative">
 
         {/* Section header */}
-        <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
+        <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16 transition-w transition-opacity">
           <h1 className="mb-2 bg-clip-text text-transparent bg-gradient-to-r from-blue-700 to-blue-500 text-lg sm:text-[2.5rem] leading-tight font-extrabold" data-aos="zoom-y-out" data-aos-delay="150">Layanan Olah Data Ocean Statistics</h1>
           <p className="text-lg text-gray-600" data-aos="zoom-y-out" data-aos-delay="200"><span className="font-bold">MULAI 28RIBU aja</span> kamu sudah bisa menggunakan jasa <span className="font-bold">Ocean Statistic</span> untuk mempermudah dan memperlancar tugas akhir kamu!</p>
         </div>
 
         <div
-          className="px-8 grid grid-flow-col gap-4 auto-cols-[100%] md:auto-cols-[50%] lg:auto-cols-[30%] overflow-x-auto overscroll-y-contain snap-x snap-mandatory scroll-pl-2 scrollbar-hide"
+          className="px-8 grid grid-flow-col gap-4 auto-cols-[100%] md:auto-cols-[75%] lg:auto-cols-[45%] overflow-x-auto overscroll-y-contain snap-x snap-mandatory scroll-pl-2 scrollbar-hide items-center justify-between"
           ref={scrollContainer}
         >
           {picardData.map((card) => (

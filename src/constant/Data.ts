@@ -2,34 +2,24 @@ import { title } from "process";
 
 export const Navdata = [
   {
-    title: "Home",
-    reference: "home",
-    href: "/"
-  },
-  {
-    title: "About",
+    title: "Tentang",
     reference: "about",
     href: "/"
   },
   {
-    title: "Overview",
+    title: "Layanan",
     reference: "overview",
     href: "/"
   },
   {
-    title: "Gallery",
+    title: "Pricelist",
     reference: "gallery",
     href: "/"
   },
   {
-    title: "Community",
+    title: "Testimoni",
     reference: "community",
     href: "/"
-  },
-  {
-    title: "Contact Us",
-    reference: "contact us",
-    href: "/" 
   },
 ];
 
@@ -63,5 +53,26 @@ export const picardData = [
     src: "/assets/logo-eview.png",
     title: "Paket Eviews",
     desc: ["Data Excel Manipulasi", "Data Run Aplikasi (.wf1)", "Output Pengolahan Aplikasi (Include Model)", "Lampiran Uji Software (word)", "Interpretasi Hasil (word)", "Free Konsultasi sampai ACC", "Garansi revisi satu kali dengan syarat tidak olah data ulang." ]
+  },
+];
+
+export const priceData = [
+  {
+    src: "/assets/pricelist-1.png",
+  },
+  {
+    src: "/assets/pricelist-2.png",
+  },
+  {
+    src: "/assets/pricelist-3.png",
+  },
+  {
+    src: "/assets/pricelist-4.png",
+  },
+  {
+    src: "/assets/pricelist-5.png",
+  },
+  {
+    src: "/assets/pricelist-6.png",
   },
 ];
