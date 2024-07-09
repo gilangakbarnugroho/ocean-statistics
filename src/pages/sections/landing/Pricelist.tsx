@@ -34,7 +34,7 @@ const Pricelist = () => {
 
         {/* Content */}
         <div className="max-w-xl md:col-span-7 lg:col-span-6" data-aos="fade-right">
-            <div className="md:pr-4 lg:pr-12 xl:pr-16">
+            <div className="md:pr-4 lg:pr-12 xl:pr-16 text-center md:text-left">
               <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out"> <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-700 to-blue-500">Detail Pricelist Uji</span></h1>
               <p className="text-lg text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">Hai Ocean Friends! Ini nih solusi buat kalian yang pakai uji korelasi dalam penelitiannya. Bisa uji data asli maupun request hasil, semua beress! Serahkan pada Ocean Statistic🌊</p>
             </div>

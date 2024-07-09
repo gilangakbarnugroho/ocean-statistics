@@ -32,7 +32,7 @@ const Hero = () => {
           </div>
         {/* Content */}
           <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
-            <div className="md:pr-4 lg:pr-12 xl:pr-16">
+            <div className="md:pr-4 lg:pr-12 xl:pr-16 text-center md:text-left">
               <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out"> <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-700 to-blue-500">Bingung saat ngerjain skripsi?</span></h1>
               <p className="text-lg text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">Konsultasiin aja masalah data kamu di Ocean Statistic</p>
               <a className="btn rounded-full text-white bg-blue-700 hover:bg-blue-300 hover:text-blue-700 w-full p-4 sm:w-auto sm:mb-0" href="#">Konsultasikan Sekarang</a>

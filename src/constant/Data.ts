@@ -76,3 +76,33 @@ export const priceData = [
     src: "/assets/pricelist-6.png",
   },
 ];
+
+export const testiData = [
+  {
+    src: "/assets/testi-1.png",
+  },
+  {
+    src: "/assets/testi-2.png",
+  },
+  {
+    src: "/assets/testi-3.png",
+  },
+  {
+    src: "/assets/testi-4.png",
+  },
+  {
+    src: "/assets/testi-5.png",
+  },
+  {
+    src: "/assets/testi-6.png",
+  },
+  {
+    src: "/assets/testi-7.png",
+  },
+  {
+    src: "/assets/testi-8.png",
+  },
+  {
+    src: "/assets/testi-9.png",
+  },
+];

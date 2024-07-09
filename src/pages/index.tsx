@@ -7,6 +7,7 @@ import Count from "./sections/landing/Count"
 import Program from "./sections/landing/Program";
 import Pricelist from "./sections/landing/Pricelist";
 import Footer from "@/components/Footer";
+import Testi from "./sections/landing/Testi";
 
 // const inter = Inter({ subsets: ["latin"] });
 
@@ -26,6 +27,7 @@ export default function Home() {
         <Second />
         <Program />
         <Pricelist />
+        <Testi />
         
         {/* <Reviewpage /> */}
         <Footer />
