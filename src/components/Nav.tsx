@@ -3,8 +3,6 @@ import { HiOutlineMenu } from "react-icons/hi";
 import { Navdata } from "@/constant/Data";
 import NavHor from "./NavHor";
 import NavVer from "./NavVer";
-import Link from "next/link";
-import LogoIDNFT from "./shared/LogoIDNFT";
 
 const Nav = () => {
   const [toggle, setToggle] = useState(true);
@@ -39,9 +37,9 @@ const Nav = () => {
       {!toggle ? (
         <nav
           id="nav-menu"
-          className={`lg:hidden absolute top-[4.5rem] right-4 py-[0.6rem] px-3 rounded-md backdrop-blur bg-blue-700`}
+          className={`lg:hidden absolute top-[4.5rem] right-4 py-[0.6rem] px-3 rounded-md backdrop-blur bg-blue-800`}
         >
-          <ul className="flex flex-col gap-2 pr-2 text-blue-700">
+          <ul className="flex flex-col gap-2 pr-2 text-blue-800">
             {Navdata.map((item) => (
               <div key={item.reference}>
                 <NavVer title={item.title} reference={item.reference} />

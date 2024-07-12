@@ -8,17 +8,17 @@ export const Navdata = [
   },
   {
     title: "Layanan",
-    reference: "overview",
+    reference: "layanan",
     href: "/"
   },
   {
     title: "Pricelist",
-    reference: "gallery",
+    reference: "pricelist",
     href: "/"
   },
   {
     title: "Testimoni",
-    reference: "community",
+    reference: "testimoni",
     href: "/"
   },
 ];
@@ -53,6 +53,24 @@ export const picardData = [
     src: "/assets/logo-eview.png",
     title: "Paket Eviews",
     desc: ["Data Excel Manipulasi", "Data Run Aplikasi (.wf1)", "Output Pengolahan Aplikasi (Include Model)", "Lampiran Uji Software (word)", "Interpretasi Hasil (word)", "Free Konsultasi sampai ACC", "Garansi revisi satu kali dengan syarat tidak olah data ulang." ]
+  },
+  {
+    id: 6,
+    src: "/assets/logo-excel.png",
+    title: "Paket Excel",
+    desc: ["Data Excel Manipulasi", "Data Run Aplikasi (.xlsx)", "Output Pengolahan Aplikasi (Include Model)", "Lampiran Uji Software (word)", "Interpretasi Hasil (word)", "Free Konsultasi sampai ACC", "Garansi revisi satu kali dengan syarat tidak olah data ulang." ]
+  },
+  {
+    id: 7,
+    src: "/assets/logo-jasp.png",
+    title: "Paket JASP",
+    desc: ["Data Excel Manipulasi", "Data Run Aplikasi (.csv)", "Output Pengolahan Aplikasi (Include Model)", "Lampiran Uji Software (word)", "Interpretasi Hasil (word)", "Free Konsultasi sampai ACC", "Garansi revisi satu kali" ]
+  },
+  {
+    id: 8,
+    src: "/assets/logo-stata.png",
+    title: "Paket Stata",
+    desc: ["Data Excel Manipulasi", "Data Run Aplikasi (.dta)", "Output Pengolahan Aplikasi (Include Model)", "Lampiran Uji Software (word)", "Interpretasi Hasil (word)", "Free Konsultasi sampai ACC", "Garansi revisi satu kali" ]
   },
 ];
 

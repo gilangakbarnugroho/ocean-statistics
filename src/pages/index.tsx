@@ -3,11 +3,12 @@ import Head from "next/head";
 import styles from "@/styles/Home.module.css";
 import Homepage from "./sections/landing/Homepage";
 import Second from "./sections/landing/Second";
-import Count from "./sections/landing/Count"
 import Program from "./sections/landing/Program";
 import Pricelist from "./sections/landing/Pricelist";
 import Footer from "@/components/Footer";
 import Testi from "./sections/landing/Testi";
+import CTA from "./sections/landing/CTA";
+import FAQ from "./sections/landing/FAQ";
 
 // const inter = Inter({ subsets: ["latin"] });
 
@@ -28,6 +29,8 @@ export default function Home() {
         <Program />
         <Pricelist />
         <Testi />
+        <CTA />
+        <FAQ />
         
         {/* <Reviewpage /> */}
         <Footer />

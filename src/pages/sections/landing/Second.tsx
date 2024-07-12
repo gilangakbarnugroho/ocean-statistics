@@ -1,16 +1,14 @@
 import Link from "next/link";
 import React from "react";
 import Image from "next/image";
-import { MdOutlineTravelExplore } from "react-icons/md";
-import { SlPeople } from "react-icons/sl";
-import { IoMdPhotos } from "react-icons/io";
+
 
 const Second = () => {
   return (
     <section
       id="about"
       data-testid="about"
-      className="w-full bg-blue-700 py-10 items-center justify-center"
+      className="w-full bg-blue-800 py-10"
     >
 
       <div className="min-h-[3rem]"></div>
@@ -20,7 +18,7 @@ const Second = () => {
         <h1 className="h2 mb-4 text-gray-100 text-2xl font-bold" data-aos="zoom-y-out" data-aos-delay="150">Mengapa harus memilih Ocean Statistics?</h1>
       </div>
 
-      <div className="flex-col mx-auto justify-center max-w-6xl">
+      <div className="flex-col mx-auto max-w-6xl">
 
       <div className="grid gap-8 sm:grid-cols-3 lg:grid-cols-3 lg:gap-6 mx-4">
         
@@ -33,7 +31,7 @@ const Second = () => {
           height={150}
           className="duration-500 transition-all mb-4"
           />
-          <h2 className="font-bold text-lg text-blue-700 mb-4">Privasi Terjaga</h2>
+          <h2 className="font-bold text-center text-lg text-blue-800 mb-4">Privasi Terjaga</h2>
           <p className="text-center">Kamu ngga perlu khawatir data atau identitasmu bocor nih! Karena kami menjamin privasi tiap konsumen.</p>
         </div>
 
@@ -46,7 +44,7 @@ const Second = () => {
           height={150}
           className="duration-500 transition-all mb-4"
           />
-          <h2 className="font-bold text-lg text-blue-700 mb-4">Interpretasi Hasil</h2>
+          <h2 className="font-bold text-center text-lg text-blue-800 mb-4">Interpretasi Hasil</h2>
           <p className="text-center">Buat kamu yang masih bingung dengan datanya, kami siap membantu menjelaskan secara langsung ya! Kamu juga bisa minta kami buat konsultasi secara face to face di area sekitar Jogja.</p>
         </div>
 
@@ -59,7 +57,7 @@ const Second = () => {
           height={150}
           className="duration-500 transition-all mb-4"
           />
-          <h2 className="font-bold text-lg text-blue-700 mb-4">Kami Bantu sampai ACC</h2>
+          <h2 className="font-bold text-center text-lg text-blue-800 mb-4">Kami Bantu sampai ACC</h2>
           <p className="text-center">Ngga perlu ragu, ngga perlu bimbang. Kami siap membantumu mendapat acc dari dosen pembimbing tercinta!</p>
         </div>
 
