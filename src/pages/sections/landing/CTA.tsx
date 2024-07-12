@@ -28,7 +28,7 @@ const CTA = () => {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center transition-w transition-opacity">
-            <h1 className=" text-4xl md:text-6xl bg-clip-text text-transparent bg-gradient-to-r from-blue-900 to-blue-800 leading-tight font-extrabold" data-aos="zoom-y-out" data-aos-delay="150">Metode Pembayaran</h1>
+            <h1 className=" text-4xl md:text-6xl bg-clip-text text-transparent bg-gradient-to-r from-blue-900 to-blue-800 leading-tight font-bold" data-aos="zoom-y-out" data-aos-delay="150">Metode Pembayaran</h1>
           </div>
 
           <div className="max-w-6xl md:my-8">
@@ -53,7 +53,7 @@ const CTA = () => {
           </div>
 
           <div className="max-w-6xl rounded-3xl bg-blue-800 flex place-items-center p-8 mt-12">
-            <Image className="w-[250px]" src="assets/garansi100.png" alt='Garansi' width={250} height={250}/>
+            <Image className="w-[250px]" src="/assets/garansi100.png" alt='Garansi' width={250} height={250}/>
             <div className="relative">
               <h2 className="text-2xl font-bold text-white uppercase mb-2">Garansi 100% Uang Kembali!</h2>
               <p className="text-white">Kami Menjamin Pengembalian Uang Sepenuhnya! Jika hasil pengujian tidak sesuai dengan kesepakatan dan data di lapangan, kami memberikan jaminan penuh. Kepuasan klien adalah prioritas utama kami</p>

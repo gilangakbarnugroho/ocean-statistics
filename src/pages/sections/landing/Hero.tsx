@@ -8,18 +8,18 @@ import Thumb from "public/assets/Hero.png"
 
 const Hero = () => {
   return (
-    <div className="flex flex-row justify-between items-center h-[90%]">
+    <div className="flex flex-row justify-between items-center h-[100%]">
       {/* social */}
       <div className="hidden xs:flex xs:flex-col xs:px-5 lg:px-8">
-        <a href="https://www.youtube.com/@idnft" target="_blank" rel="noopener noreferrer" className="w-5 py-2">
+        {/* <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" className="w-5 py-2">
           <FaYoutube color="#f1f5f9" size={22} />
         </a>
-        <a href="https://www.instagram.com/id.nft" target="_blank" rel="noopener noreferrer" className="w-5 py-2">
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" className="w-5 py-2">
           <FaInstagram color="#f1f5f9" size={22} />
         </a>
-        <a href="https://twitter.com/idnft_" target="_blank" rel="noopener noreferrer" className="w-5 py-2">
+        <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" className="w-5 py-2">
           <FaTwitter color="#f1f5f9" size={22} />
-        </a>
+        </a> */}
       </div>
 
       {/* Items */}
@@ -33,7 +33,7 @@ const Hero = () => {
         {/* Content */}
           <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
             <div className="md:pr-4 lg:pr-12 xl:pr-16 text-center md:text-left">
-              <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out"> <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-800 to-blue-500">Bingung saat ngerjain skripsi?</span></h1>
+              <h1 className="text-5xl md:text-6xl font-bold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out"> <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-800 to-blue-500">Bingung saat ngerjain skripsi?</span></h1>
               <p className="text-lg text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">Konsultasiin aja masalah data kamu di Ocean Statistic</p>
               <a className="btn rounded-full text-white bg-blue-800 hover:bg-blue-300 hover:text-blue-800 w-full p-4 sm:w-auto sm:mb-0" 
                   href="https://api.whatsapp.com/send?phone=6285802705250&text=Halo%20kak%2C%20saya%20tertarik%20untuk%20olah%20data%20di%20Ocean%20Statistic!" 

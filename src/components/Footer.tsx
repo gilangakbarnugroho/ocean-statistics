@@ -3,7 +3,7 @@ import Logo from "./shared/LogoFooter";
 
 const Footer = () => {
   return (
-    <section className="flex flex-col bg-blue">
+    <section className="flex flex-col bg-blue-800">
       <footer>
       <div className="max-w-6xl mx-auto px-4 sm:px-6 bg-blue-800">
 

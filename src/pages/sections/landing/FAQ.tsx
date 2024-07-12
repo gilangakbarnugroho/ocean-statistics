@@ -42,7 +42,7 @@ export const metadata = {
         
         {/* Section header */}
         <div className="max-w-3xl mx-auto mb-4 text-center transition-w transition-opacity">
-          <h1 className="mb-3 text-4xl md:text-6xl bg-clip-text text-transparent bg-gradient-to-r from-blue-800 to-blue-500 leading-tight font-extrabold" data-aos="zoom-y-out" data-aos-delay="150">Pertanyaan Yang Sering Ditanyakan</h1>
+          <h1 className="mb-3 text-4xl md:text-6xl bg-clip-text text-transparent bg-gradient-to-r from-blue-800 to-blue-500 leading-tight font-bold" data-aos="zoom-y-out" data-aos-delay="150">Pertanyaan Yang Sering Ditanyakan</h1>
           <p className="text-lg text-gray-600" data-aos="zoom-y-out" data-aos-delay="200"><span className='font-bold'>Ocean Statistics</span>mempermudah dan memperlancar tugas akhir kamu!</p>
         </div>
 

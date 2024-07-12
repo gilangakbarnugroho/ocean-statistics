@@ -35,7 +35,7 @@ const Pricelist = () => {
         {/* Content */}
         <div className="max-w-xl md:ml-8 md:col-span-7 lg:col-span-6" data-aos="fade-right">
             <div className="md:px-4 lg:pr-12 xl:pr-16 text-center md:text-left">
-              <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out"> <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-800 to-blue-500">Detail Pricelist Uji</span></h1>
+              <h1 className="text-5xl md:text-6xl font-bold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out"> <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-800 to-blue-500">Detail Pricelist Uji</span></h1>
               <p className="text-lg text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">Hai Ocean Friends! Ini nih solusi buat kalian yang pakai uji korelasi dalam penelitiannya. Bisa uji data asli maupun request hasil, semua beress! Serahkan pada Ocean Statistic🌊</p>
             </div>
           </div>
@@ -44,7 +44,6 @@ const Pricelist = () => {
 
           {/* Right Gradient */}
           <div className="absolute top-0 right-0 md:-right-5 h-full w-16 bg-gradient-to-l from-white to-transparent pointer-events-none"></div>
-
 
         <div
           className="max-w-xl px-8 grid grid-flow-col auto-cols-[100%] md:auto-cols-[100%] lg:auto-cols-[100%] overflow-x-auto overscroll-y-contain snap-x snap-mandatory scroll-pl-2 scrollbar-hide items-center justify-between"

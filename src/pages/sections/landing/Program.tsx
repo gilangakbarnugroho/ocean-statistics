@@ -34,7 +34,7 @@ const Pic = () => {
 
         {/* Section header */}
         <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16 transition-w transition-opacity">
-          <h1 className="mb-2 text-5xl md:text-6xl bg-clip-text text-transparent bg-gradient-to-r from-blue-800 to-blue-500 sm:text-[2.5rem] leading-tight font-extrabold" data-aos="zoom-y-out" data-aos-delay="150">Layanan Olah Data Ocean Statistics</h1>
+          <h1 className="mb-2 text-5xl md:text-6xl bg-clip-text text-transparent bg-gradient-to-r from-blue-800 to-blue-500 sm:text-[2.5rem] leading-tight font-bold" data-aos="zoom-y-out" data-aos-delay="150">Layanan Olah Data Ocean Statistics</h1>
           <p className="text-lg text-gray-600" data-aos="zoom-y-out" data-aos-delay="200"><span className="font-bold">MULAI 28RIBU aja</span> kamu sudah bisa menggunakan jasa <span className="font-bold">Ocean Statistic</span> untuk mempermudah dan memperlancar tugas akhir kamu!</p>
         </div>
 

@@ -10,6 +10,9 @@ import Testi from "./sections/landing/Testi";
 import CTA from "./sections/landing/CTA";
 import FAQ from "./sections/landing/FAQ";
 
+import Banner from "@/components/Banner";
+
+
 // const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
@@ -21,8 +24,12 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      
       <div className="overflow-hidden bg-[url('/assets/background.png')] bg-cover">
         <meta name="viewport" content="width=device-width,initial-scale=1" />
+        
+        <Banner />
+        
         {/* Home */}
         <Homepage />
         <Second />

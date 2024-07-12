@@ -34,7 +34,7 @@ const Testi = () => {
 
         {/* Section header */}
         <div className="max-w-3xl mx-auto mb-4 text-center transition-w transition-opacity">
-          <h1 className="mb-2 text-5xl md:text-6xl bg-clip-text text-transparent bg-gradient-to-r from-blue-800 to-blue-500 sm:text-[2.5rem] leading-tight font-extrabold" data-aos="zoom-y-out" data-aos-delay="150">Testimoni</h1>
+          <h1 className="mb-2 text-5xl md:text-6xl bg-clip-text text-transparent bg-gradient-to-r from-blue-800 to-blue-500 sm:text-[2.5rem] leading-tight font-bold" data-aos="zoom-y-out" data-aos-delay="150">Testimoni</h1>
           <p className="text-lg text-gray-600" data-aos="zoom-y-out" data-aos-delay="200">Dari mereka yang sudah merasakan kemudahan bekerja sama dengan Ocean Statistic🌊</p>
         </div>
 

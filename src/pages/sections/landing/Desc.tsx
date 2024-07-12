@@ -1,5 +1,5 @@
 import React from "react";
-import LogoWhite from "@/components/shared/LogoFooter"
+
 
 const Desc = () => {
   return (

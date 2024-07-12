@@ -44,7 +44,7 @@ const Header = () => {
           }`}
         >
           {/* Logo */}
-          <div className="flex items-center gap-x-1 order-1 w-[25%] box-border pl-6 lmd:pl-14 lg:pl-24 2xl:pl-16">
+          <div className="flex items-center gap-x-1 order-1 w-[15%] box-border pl-6 lmd:pl-14 lg:pl-24 2xl:pl-16">
           <Link
               href="/"
               className={`uppercase font-regular hidden xs:inline xs:text-sm sm:text-base tracking-widest ${
@@ -65,10 +65,10 @@ const Header = () => {
           {/* navigation */}
           <Nav />
           {/* contact us */}
-          <div className="invisible lg:visible order-2 lg:order-3 box-border flex justify-center place-items-center lg:pr-24 2xl:pr-16 gap-x-2 lg:justify-center">
+          <div className="invisible w-[15%] lg:visible order-2 lg:order-3 box-border flex justify-center place-items-center lg:pr-24 2xl:pr-16 gap-x-2 lg:justify-center">
             <Link
               href="https://api.whatsapp.com/send?phone=6285802705250&text=Halo%20kak%2C%20saya%20tertarik%20untuk%20olah%20data%20di%20Ocean%20Statistic!"
-              className={`btn rounded-full text-white bg-blue-800 p-4 hover:bg-blue-300 hover:text-blue-800 w-full sm:w-auto hidden xs:inline xs:text-sm ${
+              className={`btn rounded-full font-light text-white bg-blue-800 p-4 hover:bg-blue-300 hover:text-blue-800 w-full sm:w-auto hidden xs:inline xs:text-sm ${
                 dark ? "text-gray-700 border-gray-700" : "text-gray-100 "
               }`}
             >
