@@ -46,6 +46,7 @@ const Testi = () => {
           <div className="absolute top-0 right-0 h-full w-16 bg-gradient-to-l from-white to-transparent pointer-events-none"></div>
 
           {testiData.map((testi) => (
+            // eslint-disable-next-line react/jsx-key
             <PicTesti
               src={testi.src}
             />

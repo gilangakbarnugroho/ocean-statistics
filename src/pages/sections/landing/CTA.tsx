@@ -1,8 +1,5 @@
-import Link from "next/link";
 import { useState, useRef, useEffect} from 'react'
-import { GiPublicSpeaker } from "react-icons/gi"
-import { FaUniversity } from "react-icons/fa"
-import { RiTeamFill } from "react-icons/ri"
+import Image from 'next/image';
 
 const CTA = () => {
 
@@ -37,26 +34,26 @@ const CTA = () => {
           <div className="max-w-6xl md:my-8">
             <div className="max-w-6xl grid grid-cols-4 md:grid-cols-7 gap-4 place-items-center">
               
-              <img className="h-[75px] w-[75px] saturate-0 hover:saturate-100" src="/assets/logo-bca.png"/>
+              <Image className="h-[75px] w-[75px] saturate-0 hover:saturate-100" alt='BCA' src="/assets/logo-bca.png" width={75} height={75}/>
               
-              <img className="h-[75px] w-[150px] saturate-0 hover:saturate-100" src="/assets/logo-mandiri.png"/>
+              <Image className="h-[75px] w-[150px] saturate-0 hover:saturate-100" alt='Mandiri' src="/assets/logo-mandiri.png" width={150} height={75}/>
 
-              <img className="h-[75px] w-[75px] saturate-0 hover:saturate-100" src="/assets/logo-ovo.png"/>
+              <Image className="h-[75px] w-[75px] saturate-0 hover:saturate-100" alt='OVO' src="/assets/logo-ovo.png" width={75} height={75}/>
 
-              <img className="h-[75px] w-[75px] saturate-0 hover:saturate-100" src="/assets/logo-dana.png"/>
+              <Image className="h-[75px] w-[75px] saturate-0 hover:saturate-100" alt='Dana' src="/assets/logo-dana.png" width={75} height={75}/>
               
-              <img className="h-[75px] w-[150px] saturate-0 hover:saturate-100" src="/assets/logo-gopay.png"/>
+              <Image className="h-[75px] w-[150px] saturate-0 hover:saturate-100" alt='Gopay' src="/assets/logo-gopay.png" width={150} height={75}/>
 
-              <img className="h-[75px] w-[150px] saturate-0 hover:saturate-100" src="/assets/logo-shopeepay.png"/>
+              <Image className="h-[75px] w-[150px] saturate-0 hover:saturate-100" alt='Shopeepay' src="/assets/logo-shopeepay.png" width={150} height={75}/>
 
-              <img className="h-[75px] w-[150px] saturate-0 hover:saturate-100" src="/assets/logo-seabank.png"/>
+              <Image className="h-[75px] w-[150px] saturate-0 hover:saturate-100" alt='Seabank' src="/assets/logo-seabank.png" width={150} height={75}/>
 
             </div>
 
           </div>
 
           <div className="max-w-6xl rounded-3xl bg-blue-800 flex place-items-center p-8 mt-12">
-            <img className="w-[250px]" src="assets/garansi100.png"/>
+            <Image className="w-[250px]" src="assets/garansi100.png" alt='Garansi' width={250} height={250}/>
             <div className="relative">
               <h2 className="text-2xl font-bold text-white uppercase mb-2">Garansi 100% Uang Kembali!</h2>
               <p className="text-white">Kami Menjamin Pengembalian Uang Sepenuhnya! Jika hasil pengujian tidak sesuai dengan kesepakatan dan data di lapangan, kami memberikan jaminan penuh. Kepuasan klien adalah prioritas utama kami</p>

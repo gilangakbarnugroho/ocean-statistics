@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { IoCaretUpOutline } from "react-icons/io5";
 import Link from "next/link";
-import LogoIDNFT from "./shared/LogoIDNFT";
 
 
 type linkProps = {

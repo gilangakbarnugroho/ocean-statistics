@@ -51,6 +51,7 @@ const Pricelist = () => {
           ref={scrollContainer}
         >
           {priceData.map((price) => (
+            // eslint-disable-next-line react/jsx-key
             <PicPrice
               src={price.src}
             />
