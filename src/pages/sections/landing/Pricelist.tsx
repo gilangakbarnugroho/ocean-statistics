@@ -9,7 +9,7 @@ const Pricelist = () => {
   const scrollLeft = () => {
     if (scrollContainer.current) {
       scrollContainer.current.scrollBy({
-        left: -500,
+        left: -250,
         behavior: "smooth",
       });
     }
@@ -18,7 +18,7 @@ const Pricelist = () => {
   const scrollRight = () => {
     if (scrollContainer.current) {
       scrollContainer.current.scrollBy({
-        left: 500,
+        left: 250,
         behavior: "smooth",
       });
     }
@@ -46,7 +46,7 @@ const Pricelist = () => {
           <div className="absolute top-0 right-0 md:-right-5 h-full w-16 bg-gradient-to-l from-white to-transparent pointer-events-none"></div>
 
         <div
-          className="max-w-xl px-8 grid grid-flow-col auto-cols-[100%] md:auto-cols-[100%] lg:auto-cols-[100%] overflow-x-auto overscroll-y-contain snap-x snap-mandatory scroll-pl-2 scrollbar-hide items-center justify-between"
+          className="max-w-lg mx-auto px-8 grid grid-flow-col auto-cols-[75%] md:auto-cols-[90%] lg:auto-cols-[100%] overflow-x-auto overscroll-y-contain snap-x snap-mandatory scroll-pl-2 scrollbar-hide items-center justify-between"
           ref={scrollContainer}
         >
           {priceData.map((price) => (
